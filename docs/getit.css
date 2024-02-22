@@ -295,10 +295,10 @@ Algumas informações úteis e dicas:
   font-size: 1.1em;
   color: #4c4c4c;
   display: flex;
-  -ms-flex-align: end;
   align-items: center;
-  text-align: center;
+
   justify-content: center;
+  flex-grow: 2;
 }
 
 .card {
@@ -311,7 +311,7 @@ Algumas informações úteis e dicas:
   margin: 10px;
   display: flex;
   flex-direction: column; 
-  justify-content: center;
+  
 
 }
 
